@@ -11,7 +11,7 @@ function Navbar() {
           duration={500}
           className="navbar-brand"
         >
-          PepeAstro
+          AstroPepe
         </Link>
         <button
           className="navbar-toggler"

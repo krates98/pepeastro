@@ -1,6 +1,5 @@
 import React from "react";
 import pepeAstro from "./images/pepeastro.png";
-import { Link } from "react-scroll";
 import "./styles/TopHeader.css";
 
 function TopHeader() {
