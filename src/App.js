@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Footer from "./pages/Footer";
 import Header from "./pages/Header";
 import HowToBuy from "./pages/Howtobuy";
 import SpellCasting from "./pages/SpellCasting";
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <SpellCasting />
       <Tokenomics />
+      <Footer />
     </>
   );
 }
