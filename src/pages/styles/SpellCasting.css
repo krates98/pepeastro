@@ -1,0 +1,131 @@
+.spell-casting {
+  padding: 50px 0;
+  color: rgb(231, 230, 230);
+  font-size: 40px;
+}
+
+.spell-casting-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.spell-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.spell-box {
+  margin: 0 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.spell-box:hover {
+  transform: translateY(-5px);
+}
+
+.spell-box img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.spell-box h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.spell-modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.spell-modal {
+  background-color: #0c4903;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.spell-form label,
+.spell-form input,
+.spell-form textarea {
+  font-size: 16px;
+}
+
+.spell-form input,
+.spell-form textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+.spell-form button {
+  margin-top: 20px;
+  background-color: #2e7d32;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.spell-modal-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.spell-form .form-group {
+  margin-bottom: 20px;
+}
+
+.spell-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.spell-form input,
+.spell-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.spell-form input:focus,
+.spell-form textarea:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px #ccc;
+  border-color: #ccc;
+}
+
+.spell-form button {
+  margin-top: 20px;
+  background-color: #3f51b5;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.spell-form button:hover {
+  background-color: #283593;
+}

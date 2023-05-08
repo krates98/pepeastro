@@ -1,0 +1,44 @@
+/* Header.css */
+
+.astro-container {
+  background-color: #008000;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.astro-box {
+  background-color: #212529;
+  border: 1px solid #6c757d;
+  padding: 20px;
+  margin-bottom: 30px;
+  height: 100%;
+}
+
+.astro-box h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.astro-box p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-light {
+  color: #f8f9fa;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+@media (max-width: 767px) {
+  .astro-box {
+    height: auto;
+  }
+}

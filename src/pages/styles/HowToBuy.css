@@ -1,0 +1,28 @@
+.how-to-buy-logo {
+  height: 60px;
+  margin-right: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.howtobuytext {
+  font-size: 20px;
+}
+.how-to-buy-logo:hover {
+  transform: scale(1.1);
+}
+
+.how-to-buy-box {
+  color: rgb(223, 222, 222);
+}
+.pepeastro-img {
+  width: 500px;
+  margin-top: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .mt-5 {
+    flex-wrap: wrap;
+  }
+}
