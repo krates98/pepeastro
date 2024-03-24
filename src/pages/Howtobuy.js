@@ -1,10 +1,10 @@
 import React from "react";
 import "./styles/HowToBuy.css";
 import pepeTop from "./images/pepetop.png";
-import dextoolsLogo from "./images/dextools.webp";
+import dextoolsLogo from "./images/dexscreener.png";
 import pancakeswapLogo from "./images/CAKE-logo.png";
-import bscscanLogo from "./images/bsc.png";
-import twitterLogo from "./images/twitter.webp";
+import bscscanLogo from "./images/injective.webp";
+import twitterLogo from "./images/x.png";
 import telegramLogo from "./images/telegram.webp";
 
 function HowToBuy() {
@@ -22,24 +22,25 @@ function HowToBuy() {
                 />
               </div>
               <div className="col-md-6 howtobuytext">
-                <h2>How to buy PepeAstro</h2>
+                <h2>How to Buy PepeAstro</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                  eleifend mauris in dui mattis, at suscipit lacus malesuada.
-                  Vestibulum ac velit id lectus molestie sodales vel vitae
-                  tellus.
+                  Discover the power of astrology combined with cutting-edge
+                  technology through PepeAstro. Our advanced AI-driven forecasts
+                  predict market movements, guiding you on the best times to
+                  invest in PepeAstro.
                 </p>
                 <p>
-                  Sed bibendum eros mi, vel ullamcorper ipsum dapibus a. Morbi
-                  ac tortor nisl. Donec vel faucibus justo. Aliquam erat
-                  volutpat. Ut vehicula, ante eget sagittis fringilla, nunc est
-                  convallis mi, eu ultrices est nunc sit amet ex.
+                  Ready to harness the celestial advantage? You can acquire
+                  PepeAstro on leading decentralized exchanges such as
+                  Astroport, DojoSwap, and more. For direct access and detailed
+                  instructions, follow the link below.
                 </p>
                 <div className="mt-5 d-flex justify-content-center">
                   <a
                     href="https://www.dextools.io/app/pancakeswap/pair-explorer/0x92c2a1e89b801c44046f464489c78e79fa5d5c1d"
                     className="mx-3"
-                  >
+                    target="_blank"
+                    rel="noreferrer">
                     <img
                       src={dextoolsLogo}
                       alt="DexTools"
@@ -47,19 +48,21 @@ function HowToBuy() {
                     />
                   </a>
                   <a
-                    href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x9e48c2b0a2f6f908a09a61188a33bdec98c68a99"
+                    href="https://app.astroport.fi/swap?to=factory/inj1gaf6yxle4h6993qwsxdg0pkll57223qjetyn3n/PEPEA&from=inj"
                     className="mx-3"
-                  >
+                    target="_blank"
+                    rel="noreferrer">
                     <img
                       src={pancakeswapLogo}
-                      alt="PancakeSwap"
+                      alt="AstroPort"
                       className="how-to-buy-logo"
                     />
                   </a>
                   <a
                     href="https://bscscan.com/token/0x9e48c2b0a2f6f908a09a61188a33bdec98c68a99"
                     className="mx-3"
-                  >
+                    target="_blank"
+                    rel="noreferrer">
                     <img
                       src={bscscanLogo}
                       alt="BSC Scan"
@@ -67,16 +70,21 @@ function HowToBuy() {
                     />
                   </a>
                   <a
-                    href="https://twitter.com/PepeCoinOfficial"
+                    href="https://twitter.com/astropepeai"
                     className="mx-3"
-                  >
+                    target="_blank"
+                    rel="noreferrer">
                     <img
                       src={twitterLogo}
                       alt="Twitter"
                       className="how-to-buy-logo"
                     />
                   </a>
-                  <a href="https://t.me/PepeCoinOfficial" className="mx-3">
+                  <a
+                    href="https://t.me/willlaunchsoon"
+                    className="mx-3"
+                    target="_blank"
+                    rel="noreferrer">
                     <img
                       src={telegramLogo}
                       alt="Telegram"

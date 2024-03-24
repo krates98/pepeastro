@@ -29,3 +29,9 @@ body {
 .navbar-toggler-icon {
   color: white !important;
 }
+
+.how-to-buy-logo {
+  width: 46px;
+  height: 46px;
+  object-fit: contain; /* This ensures that the images are scaled correctly within the 32x32 box without warping. */
+}

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 import "./styles/SpellCasting.css";
 
 import pumpCryptoImage from "./images/pump.png";
@@ -80,8 +80,7 @@ const SpellCasting = () => {
                   placeholder="Describe your problem"
                   value={problemDescription}
                   onChange={(e) => setProblemDescription(e.target.value)}
-                  required
-                ></textarea>
+                  required></textarea>
               </div>
               <div className="form-group">
                 <label htmlFor="spellDescription">
@@ -93,8 +92,7 @@ const SpellCasting = () => {
                   placeholder="Describe the spell you want us to cast"
                   value={spellDescription}
                   onChange={(e) => setSpellDescription(e.target.value)}
-                  required
-                ></textarea>
+                  required></textarea>
               </div>
               <button type="submit" className="btn btn-primary btn-block">
                 Submit
